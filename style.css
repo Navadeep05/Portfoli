@@ -91,14 +91,20 @@ a{
 }
 
 @media (max-width:500px){
+  #resume{
+    width: 970px;
+    height: 1000px;
+    margin-top:300px ;
+  }
   .me{
     grid-area: 2 / 2 / 3 / 3;
-    font-size: 25px;
+    font-size: 40px;
+    display: flex;
   }
   .res{
+    margin: 0px;
     grid-area: 1 / 1 / 2 / 4 ;
-    height: 150px;
-    font-size: 130px;
+    font-size: 240px;
     display: flex;
     justify-content: center;
   }
