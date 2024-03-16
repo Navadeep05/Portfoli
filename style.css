@@ -1,7 +1,7 @@
 @font-face {
   /* 3d font */
   font-family: 'orange';
-  src: url('../orange_juice_2.0-webfont.woff2') format('woff2');
+  src: url('./orange_juice_2.0-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 
@@ -11,7 +11,7 @@
 
   /* fire font */
   font-family: 'char';
-    src: url('../charbb_reg-webfont.woff2') format('woff2');
+    src: url('./charbb_reg-webfont.woff2') format('woff2');
          
     font-weight: normal;
     font-style: normal;
