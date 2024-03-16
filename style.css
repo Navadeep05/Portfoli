@@ -114,7 +114,7 @@ a{
   }
   .skills{
     font-size:25px;
-    
+    width:500px;
     display:flex;
     align-items: flex-end;
     justify-content:flex-end;
