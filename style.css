@@ -92,8 +92,6 @@ a{
 
 @media (max-width:1500px){
   #resume{
-    width: 970px;
-    height: 1000px;
     margin-top:300px ;
   }
   .me{
