@@ -4,19 +4,7 @@
   src: url('./orange_juice_2.0-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-
 }
-@font-face {
-
-
-  /* fire font */
-  font-family: 'char';
-    src: url('./charbb_reg-webfont.woff2') format('woff2');
-         
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 html{
   background-color: #50413C;
@@ -83,7 +71,6 @@ a{
   justify-content: center;
   align-items: flex-end;
   gap: 30px;
-  font-family: "orange";
   height: 300px;
 }
 
