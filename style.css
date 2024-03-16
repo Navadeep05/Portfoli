@@ -109,11 +109,13 @@ a{
   .port{
     font-size:35px;
     width:500px;
+    display:flex;
     align-items: flex-end;
   }
   .skills{
     font-size:25px;
     width: 600px;
+    display:flex;
     align-items: flex-end;
     justify-content:flex-end;
     font-weight: bolder;
