@@ -1,0 +1,119 @@
+@font-face {
+  /* 3d font */
+  font-family: 'orange';
+  src: url('../orange_juice_2.0-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+
+
+  /* fire font */
+  font-family: 'char';
+    src: url('../charbb_reg-webfont.woff2') format('woff2');
+         
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html{
+  background-color: #50413C;
+  
+}
+
+#resume{
+  display: grid;
+  grid-template-columns:  1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+  font-family: "orange";
+  border-radius: 10px;
+  color: white;
+}
+.res{
+  font-size: 300px;
+  height: 400px;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.me{
+  text-align: center;
+  font-size: 50px;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.head{
+  font-family:"Pacifico",cursive;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 0.5fr ;
+
+}
+
+.port{
+  
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.contact{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.skills {
+  font-size: 30px;
+  display: flex;
+  gap: 10px;
+  color: black;
+  align-items: center;
+}
+
+a{
+  color: black;
+}
+
+
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+  font-family: "orange";
+  height: 300px;
+}
+
+.facebook{
+  width: 30px;
+  height: 27px;
+  
+}
+
+.instagram{
+  width: 30px;
+  height: 30px;
+}
+
+.twitter{
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width:1500px){
+  #resume{
+    font-size: 100px;
+  }
+  .res{
+    font-size: 280px;
+  }
+  .skills{
+    width: 300px;
+    
+  }
+  
+
+}
