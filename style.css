@@ -108,7 +108,7 @@ a{
   }
   .port{
     font-size:35px;
-    
+    width:500px;
     
     align-items: flex-end;
   }
