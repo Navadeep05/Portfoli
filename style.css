@@ -90,7 +90,7 @@ a{
   height: 30px;
 }
 
-@media (max-width:500px){
+@media (max-width:1500px){
   #resume{
     width: 970px;
     height: 1000px;
