@@ -107,14 +107,14 @@ a{
     justify-content: center;
   }
   .port{
-    font-size: 50px;
+    width:500px;
     align-items: flex-end;
   }
   .skills{
-    font-size: 30px;
-    width: 200px;
+    width: 600px;
     align-items: flex-end;
     font-weight: bolder;
+    
   }
   
 
