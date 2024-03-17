@@ -91,6 +91,9 @@ a{
 }
 
 @media (max-width:1500px){
+ html{
+   height:100vh;
+ }
   #resume{
     margin-top:300px ;
   }
