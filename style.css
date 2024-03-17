@@ -90,9 +90,9 @@ a{
   height: 30px;
 }
 
-@media (max-width:1500px){
+@media (max-width:1080px){
  html{
-   height:100vh;
+   height:2400px;
  }
   #resume{
     margin-top:300px ;
